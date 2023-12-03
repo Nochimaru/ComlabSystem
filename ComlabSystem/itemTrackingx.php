@@ -52,8 +52,7 @@
                         <th scope="col">SERIAL_NUMBER</th>
                         <th scope="col">ITEM_NAME</th>
                         <th scope="col">ITEM_CLASSIFICATION</th>
-                        <th scope="col">STATUS</th>
-                        <th scope="col">USER_ID</th>
+                        <th scope="col">AVAILABILITY</th>
                         <th scope="col">ACTION</th>
                     </tr>
                 </thead>
@@ -74,7 +73,6 @@
                                     <td>' . $ItemName . '</td>
                                     <td>' . $Classification . '</td>
                                     <td>' . $Availability . '</td>
-                                    <td>' . $UserID . '</td>
                                     <td>
                                         <button class="btn btn-primary"><a href="EditItemx.php?updateItem=' . $itemNum . '" class="text-light">Edit</a></button>
                                         <button class="btn btn-danger"><a href="DeleteItemx.php?deleteItem=' . $itemNum . '" class="text-light">Remove</a></button>
@@ -117,6 +115,7 @@
                 <img src="logo2.png" class="logo-icon">
             </a>
             <ul class="nav-links">
+            
                 <li><a href="Trackingx.php"><i class="fa-solid fa-eye"></i><p>ITEM TRACKING</p></a></li>
                 <li><a href="Reportx.php"><i class="fa-solid fa-chart-simple"></i><p>REPORTS</p></a></li>
                 <li><a href="logout.php"><i class="fa-solid fa-arrow-left"></i><p>LOGOUT</p></a></li>
@@ -126,4 +125,3 @@
     </div>
 </body>
 </html>
-s

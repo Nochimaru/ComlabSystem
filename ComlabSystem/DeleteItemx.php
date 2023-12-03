@@ -7,7 +7,7 @@ if(isset($_GET['deleteItem'])){
     $sql="delete from items where itemNum=$itemNum";
     $result = mysqli_query($con,$sql);
     if($result){
-        header('location:ItemTracking.php');
+        header('location:ItemTrackingx.php');
     }else{
         die(mysqli_error($con));
     }

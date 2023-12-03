@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Comlab Inventory System - User Report</title>
-    <link rel="stylesheet" type="text/css" href="styleHomex.css">
+    <link rel="stylesheet" type="text/css" href="styleHome.css">
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 
     <style>

@@ -52,8 +52,7 @@
                         <th scope="col">SERIAL_NUMBER</th>
                         <th scope="col">ITEM_NAME</th>
                         <th scope="col">ITEM_CLASSIFICATION</th>
-                        <th scope="col">STATUS</th>
-                        <th scope="col">USER_ID</th>
+                        <th scope="col">AVAILABILITY</th>
                         <th scope="col">ACTION</th>
                     </tr>
                 </thead>
@@ -74,7 +73,6 @@
                                     <td>' . $ItemName . '</td>
                                     <td>' . $Classification . '</td>
                                     <td>' . $Availability . '</td>
-                                    <td>' . $UserID . '</td>
                                     <td>
                                         <button class="btn btn-primary"><a href="EditItem.php?updateItem=' . $itemNum . '" class="text-light">Edit</a></button>
                                         <button class="btn btn-danger"><a href="DeleteItem.php?deleteItem=' . $itemNum . '" class="text-light">Remove</a></button>

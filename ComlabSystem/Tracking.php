@@ -35,7 +35,7 @@
             <ul class="nav-links">
                 <li><a href="Users.php"><i class="fa-solid fa-user"></i><p>USERS</p></a></li>
                 <li><a href="Tracking.php"><i class="fa-solid fa-eye"></i><p>ITEM TRACKING</p></a></li>
-                <li><a href=""><i class="fa-solid fa-chart-simple"></i><p>REPORTS</p></a></li>
+                <li><a href="Report.php"><i class="fa-solid fa-chart-simple"></i><p>REPORTS</p></a></li>
                 <li><a href="logout.php"><i class="fa-solid fa-arrow-left"></i><p>LOGOUT</p></a></li>
                 <div class = "active"></div>
             </ul>

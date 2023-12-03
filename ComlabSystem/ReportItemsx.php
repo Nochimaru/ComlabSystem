@@ -54,7 +54,7 @@
 
 <div class="header">
     <div class="side-nav">
-        <a href="Home.php" class="logo">
+        <a href="Homex.php" class="logo">
             <img src="logo.png" class="logo-img">
             <img src="logo2.png" class="logo-icon">
         </a>
